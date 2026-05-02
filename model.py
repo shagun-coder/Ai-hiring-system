@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 try:
     nlp = spacy.load("en_core_web_sm")
 except:
-    nlp = none
+    nlp = None
 
 SKILLS = [
     "python", "sql", "machine learning",
